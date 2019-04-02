@@ -1,0 +1,464 @@
+body{
+	background-color: black;
+}
+
+/* This makes the images appear on refresh and disappear after 2 seconds*/ 
+div {
+	transition-duration: 2s;
+	opacity: 0;
+	position: absolute;
+}
+
+/* This makes the instructions look cool */
+
+.instructions {
+	font-size: 25px;
+	opacity: 1;
+	color: royalblue;
+	font-family: Bradley Hand, cursive;
+	top: 0;
+	left: 300
+}
+
+/* This makes the images appear when you hover over them */
+
+div:hover {
+	transition-duration: 1s;
+	opacity: 1;
+}
+/*
+
+This set of tags sets the positions for the Horizontal Planks.
+
+*/
+.HorizontalPlankStart {
+	opacity: 1;
+}
+
+.HorizontalPlankStart{
+	top: 300;
+	left: 20;
+}
+
+.HorizontalPlank1{
+	top: 300;
+	left: 80;
+}
+
+.HorizontalPlank2{
+	top: 300;
+	left: 140;
+}
+
+.HorizontalPlank3{
+	top: 300;
+	left: 200;
+}
+
+.HorizontalPlank4{
+	top: 300;
+	left: 270;
+}
+
+.HorizontalPlank5{
+	top: 300;
+	left: 330;
+}
+
+.HorizontalPlank6{
+	top: 300;
+	left: 390;
+}
+
+
+.HorizontalPlank8{
+	top: 420;
+	left: 420;
+}
+
+.HorizontalPlank8:hover {
+}
+
+.HorizontalPlank9{
+	top: 140;
+	left: 120;
+}
+
+.HorizontalPlank9:hover {
+}
+
+.HorizontalPlank10{
+	top: 160;
+	left: 370;
+}
+
+.HorizontalPlank10:hover {
+}
+
+.HorizontalPlank11{
+	top: 160;
+	left: 430;
+}
+
+.HorizontalPlank11:hover {
+}
+
+.HorizontalPlank12{
+	top: 160;
+	left: 500;
+}
+
+.HorizontalPlank12:hover {
+}
+
+.HorizontalPlank13{
+	top: 80;
+	left: 560;
+}
+
+.HorizontalPlank13:hover {
+}
+
+.HorizontalPlank14{
+	top: 80;
+	left: 630;
+}
+
+.HorizontalPlank14:hover {
+}
+
+.HorizontalPlank15{
+	top: 240;
+	left: 580;
+}
+
+.HorizontalPlank15:hover {
+}
+
+.HorizontalPlank16{
+	top: 340;
+	left: 700;
+}
+
+.HorizontalPlank16:hover {
+}
+
+.HorizontalPlank17{
+	top: 340;
+	left: 770;
+}
+
+.HorizontalPlank17:hover {
+}
+
+.HorizontalPlank18{
+	top: 490;
+	left: 850;
+}
+
+.HorizontalPlank18:hover {
+}
+
+.HorizontalPlank19{
+	top: 490;
+	left: 920;
+}
+
+.HorizontalPlank19:hover {
+}
+
+.HorizontalPlank20{
+	top: 240;
+	left: 920;
+}
+
+.HorizontalPlank20:hover {
+}
+
+.HorizontalPlank21{
+	top: 240;
+	left: 1045;
+}
+
+.HorizontalPlank21:hover {
+}
+
+.HorizontalPlank22{
+	top: 240;
+	left: 1110;
+}
+
+.HorizontalPlank22:hover {
+}
+
+.HorizontalPlank23{
+	top: 85;
+	left: 970;
+}
+
+.HorizontalPlank23:hover {
+}
+
+/*
+
+This set of tags sets the positions for the Vertical Planks.
+
+*/
+
+.VerticalPlank1{
+	top: 230;
+	left: 300;
+}
+
+.VerticalPlank2{
+	top: 160;
+	left: 300;
+}
+
+.VerticalPlank2:hover{
+}
+
+.VerticalPlank3{
+	top: 350;
+	left: 400;
+}
+
+.VerticalPlank3:hover{
+}
+
+.VerticalPlank4{
+	top: 230;
+	left: 50;
+}
+
+.VerticalPlank4:hover{
+}
+
+.VerticalPlank5{
+	top: 150;
+	left: 50;
+}
+
+.VerticalPlank5:hover{
+}
+
+.VerticalPlank6{
+	top: 105;
+	left: 180;
+}
+
+.VerticalPlank6:hover{
+}
+
+.VerticalPlank7{
+	top: 20;
+	left: 180;
+}
+
+.VerticalPlank7:hover{
+}
+
+.VerticalPlank8{
+	top: 90;
+	left: 500;
+}
+
+.VerticalPlank8:hover{
+}
+
+.VerticalPlank9{
+	top: 130;
+	left: 630;
+}
+
+.VerticalPlank9:hover{
+}
+
+.VerticalPlank10{
+	top: 220;
+	left: 505;
+}
+
+.VerticalPlank10:hover{
+}
+
+.VerticalPlank11{
+	top: 250;
+	left: 635;
+}
+
+.VerticalPlank11:hover{
+}
+
+.VerticalPlank12{
+	top: 320;
+	left: 635;
+}
+
+.VerticalPlank12:hover{
+}
+
+.VerticalPlank13{
+	top: 390;
+	left: 775;
+}
+
+.VerticalPlank13:hover{
+}
+
+.VerticalPlank14{
+	top: 400;
+	left: 635;
+}
+
+.VerticalPlank14:hover{
+}
+
+.VerticalPlank16{
+	top: 470;
+	left: 775;
+}
+
+.VerticalPlank16:hover{
+}
+
+.VerticalPlank17{
+	top: 465;
+	left: 975;
+}
+
+.VerticalPlank17:hover{
+}
+
+.VerticalPlank18{
+	top: 390;
+	left: 975;
+}
+
+.VerticalPlank18:hover{
+}
+
+.VerticalPlank19{
+	top: 320;
+	left: 975;
+}
+
+.VerticalPlank19:hover{
+}
+
+.VerticalPlank20{
+	top: 250;
+	left: 975;
+}
+
+.VerticalPlank20:hover{
+}
+
+.VerticalPlank21{
+	top: 300;
+	left: 1110;
+}
+
+.VerticalPlank21:hover{
+}
+
+.VerticalPlank22{
+	top: 170;
+	left: 900;
+}
+
+.VerticalPlank22:hover{
+}
+
+.VerticalPlank23{
+	top: 95;
+	left: 900;
+}
+
+.VerticalPlank23:hover{
+}
+
+/* This configures the images so that they are in the right position and the right size */
+container {
+	width: 100;
+}
+
+img{
+	width: 100;
+}
+	
+.Angler{
+	position: absolute;
+	top: 50;
+	left: 50;
+}
+
+.Angler img{
+	width: 150
+}
+
+.piranahas{
+	position: absolute;
+	top: 400;
+	left: 520;
+	width: 20;
+}
+
+.piranahas img{
+	width: 150
+}
+
+
+.octopus{
+	position: absolute;
+	top: 400; 
+	left: 1100;
+}
+
+.octopus img{
+	width: 150;
+}
+
+.MangoFish{
+	position: absolute;
+	top: 500;
+	left: 635;
+}
+
+.MangoFish img{
+	width: 150;
+}
+
+.Eel{
+	position: absolute;
+	top: 0;
+	left: 750;
+}
+.SinkingShip {
+	opacity: 1;	
+}
+
+.SinkingShip img{
+	position: absolute;
+	top: 350;
+	left: 10;
+	width: 400;
+}
+
+.Treasure{
+	position: absolute;
+	top: 10; 
+	left: 1050;
+}
+
+.Treasure:active {
+}
+
+/*
+<li><a class="active" href="../page%201/intro.html">Intro     ⚓</a></li>
+            <li><a 
+*/
+
+.Treasure img{
+	width: 200;
+}
