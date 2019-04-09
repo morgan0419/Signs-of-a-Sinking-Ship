@@ -5,7 +5,7 @@ body{
 
 /* This makes the images appear on refresh and disappear after 2 seconds*/ 
 div {
-	transition-duration: 1000000s;
+	transition-duration: 1s;
 	opacity: 0;
 	position: absolute;
 }
@@ -13,6 +13,7 @@ div {
 /* This makes the instructions look cool */
 
 .instructions {
+    	position: absolute;
 	font-size: 25px;
 	opacity: 1;
 	color: royalblue;
