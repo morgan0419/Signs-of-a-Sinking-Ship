@@ -2,7 +2,7 @@ body{
     background-color: white;
     position: absolute;
     animation-name: body;
-    animation-duration: 60s;
+    animation-duration: 15s;
     animation-iteration-count: initial;
     animation-fill-mode: forwards;
     overflow: hidden;
@@ -72,7 +72,7 @@ Purpose: the following keyframes and div tags allow for our individual pictures 
     left: 40vw;
     position: absolute;
     animation-name: picture;
-    animation-duration: 70s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -96,7 +96,7 @@ div {
     height: 30vh;
     left: 20vw;
     animation-name: picture2;
-    animation-duration: 70s;
+    animation-duration: 15s;
     animation-iteration-count: linear;
     animation-fill-mode: forwards;
 }
@@ -115,7 +115,7 @@ div {
     height: 30vh;
     left: 60vw;
     animation-name: picture3;
-    animation-duration: 70s;
+    animation-duration: 15s;
     animation-iteration-count: linear;
     animation-fill-mode: forwards;
 }
@@ -134,7 +134,7 @@ div {
     height: 30vh;
     left: 80vw;
     animation-name: picture4;
-    animation-duration: 70s;
+    animation-duration: 15s;
     animation-iteration-count: linear;
     animation-fill-mode: forwards;
 }
@@ -154,7 +154,7 @@ div {
     left: 0vw;
     height: 30vh;
     animation-name: picture5;
-    animation-duration: 70s;
+    animation-duration: 15s;
     animation-iteration-count: linear;
     animation-fill-mode: forwards;
 }
