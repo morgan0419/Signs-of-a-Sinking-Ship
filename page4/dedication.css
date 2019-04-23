@@ -1,6 +1,8 @@
 body {
-    background-color: white;
+    background-color: black;
     overflow-x: hidden;
+    user-select: none;
+    color: white;
 }
 
 h4 {
@@ -8,23 +10,23 @@ h4 {
     top: 5vh;
     width: 100vw;
     font-size: 4vw;
-    font-family: Impact, fantasy;
+    font-family: DejaVu Sans Mono, monospace;
     text-align: center;
 }
 h1 {
     position: absolute;
     width: 100vw;
-    font-size: 50px;
-    font-family: Impact, fantasy;
+    font-size: 4vw;
+    font-family: DejaVu Sans Mono, monospace;
     text-align: center;
-    top: 690px;
+    top: 90vh;
 }
 
 h3 {
     position: absolute;
-    top: 1280px;
-    font-size: 50px;
-    font-family: Impact, fantasy;
+    top: 185vh;
+    font-size: 3vw;
+    font-family: DejaVu Sans Mono, monospace;
     width: 100vw;
     text-align: center;
 }
@@ -36,7 +38,7 @@ h3 {
 
 .author {
     width: 28vw;
-    top: 800px;
+    top: 110vh;
     position: absolute;
 }
 
@@ -128,14 +130,8 @@ h3 {
 .full_image2 {
     width: 100%;
     height: 40vh;
+    top: 150vh;
 }
-
-.model {
-    width: 20vw;
-    top: 900px;
-    position: absolute;
-}
-
 .text3 {
     color: white;
     font-size: 1vw;
@@ -151,9 +147,10 @@ h3 {
 
 
 .model {
-    width: 500px;
-    height: 500px;
-    top: 1400px;
+    width: 25.3vw;
+    height: 25.3vh;
+    top: 200vh;
+    position: absolute;
 }
 
 .overlay4 {
@@ -187,6 +184,7 @@ h3 {
 .full_image2 {
     width: 16.5vw;
     height: 30vh;
+    top: 1500vh;
 }
 
 .overlay5 {
@@ -307,20 +305,20 @@ h3 {
 
 .full_image3 {
     width: 45vw;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
     position: absolute;
-    left: 30vw;
-    top: 15vh;
+    left: 28vw;
+    top: 28vh;
     transition-duration: 1s;    
 }
 
 
 .text9 {
-    color: black;
+    color: white;
     font-size: 1.5vw;
     position: absolute;
-    top: 35vh;
+    top: 45vh;
     left: 0vw;
     text-align: center;
     font-family: Bradley Hand, cursive;
